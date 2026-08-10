@@ -1,5 +1,12 @@
 # Deep Learning Lecture Notes in Chinese
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-52-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
+[![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
+[![Repository Size](https://img.shields.io/github/repo-size/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=lightgrey)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+
 > 系统整理的中文深度学习讲义，覆盖数学基础、学习理论、模型训练、神经网络架构、计算机视觉、多模态学习、参数高效微调、强化学习、大模型对齐及开源大模型框架解析。
 
 ## 项目简介
@@ -12,24 +19,24 @@
 
 ## 当前状态
 
-- 已整理第 1 课至第 37 课及第 39 课的中文讲义。
+- 已整理第 1 课至第 37 课及第 39 课至第 41 课的中文讲义。
 - 已收录 DeepSeek 系列讲义及相关参考论文。
 - 已将课程讲义、参考论文及历史版本归入对应主题。
-- 当前共收录 50 份 PDF。
+- 当前共收录 52 份 PDF。
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录。
 
 ## 内容范围
 
 | 一级领域 | 主要内容 | 对应课次 |
 | --- | --- | --- |
-| 数学基础 | 矩阵微积分、线性代数、概率论、距离度量 | 3、4、21、22、25、26、27 |
+| 数学基础 | 矩阵微积分、线性代数、概率论、距离度量、信息论 | 3、4、21、22、25、26、27、41 |
 | 学习理论 | 函数逼近、算法能力边界 | 2、8 |
 | 模型训练 | 目标函数、优化器、参数初始化、训练动力学、损失景观 | 1、5、15、18、19 |
 | 神经网络架构 | Transformer、RoPE、AttnRes | 20、35、36 |
 | 计算机视觉 | ViT、DINO、U-Net、扩散模型 | 14、16、17、24 |
 | 多模态学习 | CLIP、BLIP | 6、7 |
 | 参数高效微调 | LoRA、AdaLoRA、LoRA+ | 10 |
-| 强化学习 | 马尔可夫决策过程、Q-Learning、PPO | 9、12、13 |
+| 强化学习 | 马尔可夫决策过程、Q-Learning、PPO、策略熵 | 9、12、13、40 |
 | 大模型对齐 | RLHF、DPO、推理强化学习、大模型后训练 | 11、28—33、39 |
 | 开源大模型框架解析 | DeepSeek 系列 | 34、37 |
 
@@ -75,6 +82,8 @@
 | 36 | AttnRes | 注意力残差、深度注意力、跨层信息聚合 | 中文讲义、历史版本 |
 | 37 | DeepSeek LLM 67B | 通用语言模型架构、GQA、Scaling Law | 中文讲义 |
 | 39 | 大模型后训练 | SFT、偏好优化、强化学习、知识蒸馏、数据迭代 | 中文讲义 |
+| 40 | 策略熵 | 策略不确定性、探索机制、熵奖励 | 中文讲义 |
+| 41 | JS 散度 | 概率分布比较、KL 散度对称化、信息度量 | 中文讲义 |
 
 ## 推荐学习路径
 
@@ -82,7 +91,7 @@
 
 适合第一次系统学习深度学习的读者：
 
-1. 数学基础：第 3、4、21、22、25、26、27 课。
+1. 数学基础：第 3、4、21、22、25、26、27、41 课。
 2. 学习理论：第 2、8 课。
 3. 模型训练：第 1、5、15、18、19 课。
 4. 通用架构：第 20、35、36 课。
@@ -118,12 +127,13 @@
 建议按照概念依赖顺序学习：
 
 1. 第 9 课马尔可夫决策过程。
-2. 第 13 课 Q-Learning。
-3. 第 12 课 PPO。
-4. 第 11 课 RLHF。
-5. 第 28 课 GRPO。
-6. 第 29—33 课 GRPO 衍生方法。
-7. 第 39 课大模型后训练。
+2. 第 40 课策略熵。
+3. 第 13 课 Q-Learning。
+4. 第 12 课 PPO。
+5. 第 11 课 RLHF。
+6. 第 28 课 GRPO。
+7. 第 29—33 课 GRPO 衍生方法。
+8. 第 39 课大模型后训练。
 
 ## 版本管理原则
 
@@ -157,8 +167,14 @@
 
 提交问题时，建议注明课程编号、PDF 页码、原始内容、建议修改方式及可核验的参考来源。涉及较大范围的内容调整时，请先通过 Issue 讨论修改范围。
 
+## 开源许可
+
+除仓库中明确标注的第三方原论文、参考论文及其他外部材料外，本项目原创讲义、项目文档及后续原创内容采用 [MIT License](LICENSE) 开源。使用者可以在遵守许可证条款并保留版权及许可声明的前提下，自由使用、复制、修改和分发相关内容。
+
+第三方材料不属于本项目原创内容，也不因被本仓库收录而自动适用 MIT License。
+
 ## 学术资料说明
 
-仓库中的参考论文仅用于辅助课程学习、建立知识索引及保留研究脉络。相关论文的著作权归原作者、研究机构或出版方所有。本仓库对论文进行分类不代表对其版权或许可状态作出额外声明。
+仓库中的参考论文仅用于辅助课程学习、建立知识索引及保留研究脉络。相关论文的著作权归原作者、研究机构或出版方所有，不属于本项目 MIT License 的授权范围。本仓库对论文进行分类不代表对其版权或许可状态作出额外声明。
 
 若相关资料的权利人认为仓库中的文件需要调整、替换为公开链接或移除，请通过 Issues 联系项目维护者。
