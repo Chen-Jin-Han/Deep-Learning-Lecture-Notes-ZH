@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-52-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-56-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -19,10 +19,10 @@
 
 ## 当前状态
 
-- 已整理第 1 课至第 37 课及第 39 课至第 41 课的中文讲义。
-- 已收录 DeepSeek 系列讲义及相关参考论文。
+- 已整理第 1 课至第 37 课及第 39 课至第 45 课的中文讲义。
+- 已收录 DeepSeek、Qwen 及 VisualGLM 系列讲义与相关参考论文。
 - 已将课程讲义、参考论文及历史版本归入对应主题。
-- 当前共收录 52 份 PDF。
+- 当前共收录 56 份 PDF。
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录。
 
 ## 内容范围
@@ -32,13 +32,13 @@
 | 数学基础 | 矩阵微积分、线性代数、概率论、距离度量、信息论 | 3、4、21、22、25、26、27、41 |
 | 学习理论 | 函数逼近、算法能力边界 | 2、8 |
 | 模型训练 | 目标函数、优化器、参数初始化、训练动力学、损失景观 | 1、5、15、18、19 |
-| 神经网络架构 | Transformer、RoPE、AttnRes | 20、35、36 |
+| 神经网络架构 | Transformer、RoPE、AttnRes、激活函数 | 20、35、36、42 |
 | 计算机视觉 | ViT、DINO、U-Net、扩散模型 | 14、16、17、24 |
 | 多模态学习 | CLIP、BLIP | 6、7 |
 | 参数高效微调 | LoRA、AdaLoRA、LoRA+ | 10 |
 | 强化学习 | 马尔可夫决策过程、Q-Learning、PPO、策略熵 | 9、12、13、40 |
 | 大模型对齐 | RLHF、DPO、推理强化学习、大模型后训练 | 11、28—33、39 |
-| 开源大模型框架解析 | DeepSeek 系列 | 34、37 |
+| 开源大模型框架解析 | DeepSeek、Qwen、VisualGLM 系列 | 34、37、43—45 |
 
 ## 完整课程索引
 
@@ -84,6 +84,10 @@
 | 39 | 大模型后训练 | SFT、偏好优化、强化学习、知识蒸馏、数据迭代 | 中文讲义 |
 | 40 | 策略熵 | 策略不确定性、探索机制、熵奖励 | 中文讲义 |
 | 41 | JS 散度 | 概率分布比较、KL 散度对称化、信息度量 | 中文讲义 |
+| 42 | 激活函数 | 非线性表达、梯度传播及常见激活函数 | 中文讲义 |
+| 43 | Qwen3.6-27B | 通用语言模型架构及训练方法 | 中文讲义 |
+| 44 | Qwen-VL 系列 | 视觉语言模型架构、训练及多模态能力 | 中文讲义 |
+| 45 | VisualGLM 系列 | 中英双语视觉语言模型及多模态对话 | 中文讲义 |
 
 ## 推荐学习路径
 
@@ -94,7 +98,7 @@
 1. 数学基础：第 3、4、21、22、25、26、27、41 课。
 2. 学习理论：第 2、8 课。
 3. 模型训练：第 1、5、15、18、19 课。
-4. 通用架构：第 20、35、36 课。
+4. 通用架构：第 20、35、36、42 课。
 
 ### 视觉路径
 
@@ -121,6 +125,9 @@
 8. 第 28—33 课推理强化学习方法。
 9. 第 34 课 DeepSeek-Coder-1.3B。
 10. 第 37 课 DeepSeek LLM 67B。
+11. 第 43 课 Qwen3.6-27B。
+12. 第 44 课 Qwen-VL 系列。
+13. 第 45 课 VisualGLM 系列。
 
 ### 强化学习路径
 
