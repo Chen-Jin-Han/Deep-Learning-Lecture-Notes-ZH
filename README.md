@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-59-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-60-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -22,7 +22,7 @@
 - 已整理第 1 课至第 37 课及第 39 课至第 48 课的中文讲义。
 - 已收录 DeepSeek、Qwen 及 VisualGLM 系列讲义与相关参考论文。
 - 已将课程讲义、参考论文及历史版本归入对应主题。
-- 当前共收录 59 份 PDF。
+- 当前共收录 60 份 PDF。
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录。
 
 ## 内容范围
@@ -90,7 +90,7 @@
 | 45 | VisualGLM 系列 | 中英双语视觉语言模型及多模态对话 | 中文讲义 |
 | 46 | 欧拉公式 | 指数函数与三角函数的幂级数关系 | 中文讲义 |
 | 47 | 代数基本定理 | 复系数多项式的根及最小模证明 | 中文讲义 |
-| 48 | DiT | 扩散 Transformer、潜在特征分块及自适应层归一化 | 中文讲义 |
+| 48 | DiT | 扩散 Transformer、潜在特征分块及自适应层归一化 | 中文讲义、[原论文](05_计算机视觉/04_图像生成/DiT原论文.pdf) |
 
 ## 推荐学习路径
 
