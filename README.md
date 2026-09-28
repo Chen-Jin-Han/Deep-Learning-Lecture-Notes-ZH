@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-58-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-59-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -19,10 +19,10 @@
 
 ## 当前状态
 
-- 已整理第 1 课至第 37 课及第 39 课至第 47 课的中文讲义。
+- 已整理第 1 课至第 37 课及第 39 课至第 48 课的中文讲义。
 - 已收录 DeepSeek、Qwen 及 VisualGLM 系列讲义与相关参考论文。
 - 已将课程讲义、参考论文及历史版本归入对应主题。
-- 当前共收录 58 份 PDF。
+- 当前共收录 59 份 PDF。
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录。
 
 ## 内容范围
@@ -33,7 +33,7 @@
 | 学习理论 | 函数逼近、算法能力边界 | 2、8 |
 | 模型训练 | 目标函数、优化器、参数初始化、训练动力学、损失景观 | 1、5、15、18、19 |
 | 神经网络架构 | Transformer、RoPE、AttnRes、激活函数 | 20、35、36、42 |
-| 计算机视觉 | ViT、DINO、U-Net、扩散模型 | 14、16、17、24 |
+| 计算机视觉 | ViT、DINO、U-Net、扩散模型、DiT | 14、16、17、24、48 |
 | 多模态学习 | CLIP、BLIP | 6、7 |
 | 参数高效微调 | LoRA、AdaLoRA、LoRA+ | 10 |
 | 强化学习 | 马尔可夫决策过程、Q-Learning、PPO、策略熵 | 9、12、13、40 |
@@ -90,6 +90,7 @@
 | 45 | VisualGLM 系列 | 中英双语视觉语言模型及多模态对话 | 中文讲义 |
 | 46 | 欧拉公式 | 指数函数与三角函数的幂级数关系 | 中文讲义 |
 | 47 | 代数基本定理 | 复系数多项式的根及最小模证明 | 中文讲义 |
+| 48 | DiT | 扩散 Transformer、潜在特征分块及自适应层归一化 | 中文讲义 |
 
 ## 推荐学习路径
 
@@ -112,6 +113,7 @@
 4. 第 17 课 U-Net。
 5. 第 6 课 CLIP。
 6. 第 7 课 BLIP。
+7. 第 48 课 DiT。
 
 ### 大模型路径
 
