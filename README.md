@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-65-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-66-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -19,17 +19,17 @@
 
 ## 当前状态
 
-- 已整理第 1 课至第 37 课及第 39 课至第 53 课的中文讲义。
+- 已整理第 1 课至第 37 课及第 39 课至第 54 课的中文讲义。
 - 已收录 DeepSeek、Qwen 及 VisualGLM 系列讲义与相关参考论文。
 - 已将课程讲义、参考论文及历史版本归入对应主题。
-- 当前共收录 65 份 PDF。
+- 当前共收录 66 份 PDF。
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录。
 
 ## 内容范围
 
 | 一级领域 | 主要内容 | 对应课次 |
 | --- | --- | --- |
-| 数学基础 | 矩阵微积分、线性代数、概率论、距离度量、信息论、复数与复分析、最优化原理 | 3、4、21、22、25、26、27、41、46、47、49—53 |
+| 数学基础 | 矩阵微积分、线性代数、概率论、距离度量、信息论、复数与复分析、最优化原理 | 3、4、21、22、25、26、27、41、46、47、49—54 |
 | 学习理论 | 函数逼近、算法能力边界 | 2、8 |
 | 模型训练 | 目标函数、优化器、参数初始化、训练动力学、损失景观 | 1、5、15、18、19 |
 | 神经网络架构 | Transformer、RoPE、AttnRes、激活函数 | 20、35、36、42 |
@@ -96,6 +96,7 @@
 | 51 | 最优化原理第三课 | 凸集、凸函数、凸优化及常见优化模型 | 中文讲义 |
 | 52 | 最优化原理第四课 | 多维无约束优化、回归模型及一阶与二阶最优性条件 | 中文讲义 |
 | 53 | 最优化原理第五课 | 多维无约束优化的下降方向、线搜索与停机条件 | 中文讲义 |
+| 54 | 最优化原理第六课 | 多维无约束优化的一阶方法、梯度法与共轭梯度法 | 中文讲义 |
 
 ## 推荐学习路径
 
@@ -103,7 +104,7 @@
 
 适合第一次系统学习深度学习的读者：
 
-1. 数学基础：第 3、4、21、22、25、26、27、41、46、47、49—53 课。
+1. 数学基础：第 3、4、21、22、25、26、27、41、46、47、49—54 课。
 2. 学习理论：第 2、8 课。
 3. 模型训练：第 1、5、15、18、19 课。
 4. 通用架构：第 20、35、36、42 课。
