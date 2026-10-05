@@ -7,7 +7,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Repository Size](https://img.shields.io/github/repo-size/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=lightgrey)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 
-> 系统整理的中文深度学习讲义，覆盖数学基础、学习理论、模型训练、神经网络架构、计算机视觉、多模态学习、参数高效微调、强化学习、大模型对齐及开源大模型框架解析。
+> 系统整理的中文深度学习讲义，覆盖数学基础、学习理论、模型训练（含参数高效微调）、神经网络架构、计算机视觉、多模态学习、强化学习、大模型对齐及开源大模型框架解析。
 
 ## 项目简介
 
@@ -31,11 +31,10 @@
 | --- | --- | --- |
 | 数学基础 | 矩阵微积分、线性代数、概率论、距离度量、信息论、复数与复分析、最优化原理 | 3、4、21、22、25、26、27、41、46、47、49—54 |
 | 学习理论 | 函数逼近、算法能力边界 | 2、8 |
-| 模型训练 | 目标函数、优化器、参数初始化、训练动力学、损失景观 | 1、5、15、18、19 |
+| 模型训练 | 目标函数、优化器、参数初始化、训练动力学、损失景观、[参数高效微调](03_模型训练/06_参数高效微调/01_LoRA)（LoRA、AdaLoRA、LoRA+） | 1、5、10、15、18、19 |
 | 神经网络架构 | Transformer、RoPE、AttnRes、激活函数 | 20、35、36、42 |
 | 计算机视觉 | ViT、DINO、U-Net、扩散模型、DiT | 14、16、17、24、48 |
 | 多模态学习 | CLIP、BLIP | 6、7 |
-| 参数高效微调 | LoRA、AdaLoRA、LoRA+ | 10 |
 | 强化学习 | 马尔可夫决策过程、Q-Learning、PPO、策略熵 | 9、12、13、40 |
 | 大模型对齐 | RLHF、DPO、推理强化学习、大模型后训练 | 11、28—33、39 |
 | 开源大模型框架解析 | DeepSeek、Qwen、VisualGLM 系列 | 34、37、43—45 |
