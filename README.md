@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-72-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-73-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -19,10 +19,10 @@
 
 ## 当前状态
 
-- 已整理第 1 课至第 37 课及第 39 课至第 59 课的中文讲义
+- 已整理第 1 课至第 37 课及第 39 课至第 60 课的中文讲义
 - 已收录 DeepSeek、Qwen 及 VisualGLM 系列讲义与相关参考论文
 - 已将课程讲义、参考论文及历史版本归入对应主题
-- 当前共收录 72 份 PDF
+- 当前共收录 73 份 PDF
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录
 
 ## 内容范围
@@ -35,7 +35,7 @@
 | 神经网络架构 | Transformer、RoPE、AttnRes、激活函数 | 20、35、36、42 |
 | 多模态学习 | CLIP、SigLIP、BLIP、[计算机视觉](05_多模态学习/03_计算机视觉)（ViT、DINO、U-Net、扩散模型、DiT） | 6、7、14、16、17、24、48、58 |
 | 强化学习 | 马尔可夫决策过程、Q-Learning、PPO、策略熵 | 9、12、13、40 |
-| 大模型对齐 | RLHF、DPO、推理强化学习（含 CISPO）、大模型后训练 | 11、28—33、39、59 |
+| 大模型对齐 | RLHF、DPO、推理强化学习（含 CISPO、DIVA-GRPO）、大模型后训练 | 11、28—33、39、59、60 |
 | 开源大模型框架解析 | DeepSeek、Qwen、VisualGLM 系列 | 34、37、43—45、57 |
 
 ## 完整课程索引
@@ -100,6 +100,7 @@
 | 57 | Qwen3.8-27B | 视觉编码器、Gated DeltaNet 与混合式 Decoder | 中文讲义 |
 | 58 | SigLIP | 双编码器图文预训练与成对 Sigmoid 损失 | 中文讲义、[原论文](05_多模态学习/01_图文对比学习/SigLIP原论文.pdf) |
 | 59 | CISPO | 重要性采样权重裁剪与词元级策略优化 | 中文讲义 |
+| 60 | DIVA-GRPO | 多模态 GRPO 的动态难度与变体优势优化 | 中文讲义 |
 
 ## 推荐学习路径
 
@@ -156,7 +157,8 @@
 6. 第 28 课 GRPO
 7. 第 29—33 课 GRPO 衍生方法
 8. 第 59 课 CISPO
-9. 第 39 课大模型后训练
+9. 第 60 课 DIVA-GRPO
+10. 第 39 课大模型后训练
 
 ## 版本管理原则
 
