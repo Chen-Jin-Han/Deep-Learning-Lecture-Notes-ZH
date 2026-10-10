@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-73-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-74-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -19,10 +19,10 @@
 
 ## 当前状态
 
-- 已整理第 1 课至第 37 课及第 39 课至第 60 课的中文讲义
+- 已整理第 1 课至第 37 课及第 39 课至第 61 课的中文讲义
 - 已收录 DeepSeek、Qwen 及 VisualGLM 系列讲义与相关参考论文
 - 已将课程讲义、参考论文及历史版本归入对应主题
-- 当前共收录 73 份 PDF
+- 当前共收录 74 份 PDF
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录
 
 ## 内容范围
@@ -30,7 +30,7 @@
 | 一级领域 | 主要内容 | 对应课次 |
 | --- | --- | --- |
 | 数学基础 | 矩阵微积分、线性代数（含矩阵理论）、概率论、距离度量、信息论、复数与复分析、最优化原理 | 3、4、21、22、25、26、27、41、46、47、49—56 |
-| 学习理论 | 函数逼近、算法能力边界 | 2、8 |
+| 学习理论 | 函数逼近、算法能力边界、流形假设 | 2、8、61 |
 | 模型训练 | 目标函数、优化器、参数初始化、训练动力学、损失景观、[参数高效微调](03_模型训练/06_参数高效微调/01_LoRA)（LoRA、AdaLoRA、LoRA+） | 1、5、10、15、18、19 |
 | 神经网络架构 | Transformer、RoPE、AttnRes、激活函数 | 20、35、36、42 |
 | 多模态学习 | CLIP、SigLIP、BLIP、[计算机视觉](05_多模态学习/03_计算机视觉)（ViT、DINO、U-Net、扩散模型、DiT） | 6、7、14、16、17、24、48、58 |
@@ -101,6 +101,7 @@
 | 58 | SigLIP | 双编码器图文预训练与成对 Sigmoid 损失 | 中文讲义、[原论文](05_多模态学习/01_图文对比学习/SigLIP原论文.pdf) |
 | 59 | CISPO | 重要性采样权重裁剪与词元级策略优化 | 中文讲义 |
 | 60 | DIVA-GRPO | 多模态 GRPO 的动态难度与变体优势优化 | 中文讲义 |
+| 61 | 流形假设 | 高维数据的低维结构、切空间与流形学习 | 中文讲义 |
 
 ## 推荐学习路径
 
@@ -109,7 +110,7 @@
 适合第一次系统学习深度学习的读者：
 
 1. 数学基础：第 3、4、21、22、25、26、27、41、46、47、49—56 课
-2. 学习理论：第 2、8 课
+2. 学习理论：第 2、8、61 课
 3. 模型训练：第 1、5、15、18、19 课
 4. 通用架构：第 20、35、36、42 课
 
