@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-69-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-70-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -19,10 +19,10 @@
 
 ## 当前状态
 
-- 已整理第 1 课至第 37 课及第 39 课至第 57 课的中文讲义
+- 已整理第 1 课至第 37 课及第 39 课至第 58 课的中文讲义
 - 已收录 DeepSeek、Qwen 及 VisualGLM 系列讲义与相关参考论文
 - 已将课程讲义、参考论文及历史版本归入对应主题
-- 当前共收录 69 份 PDF
+- 当前共收录 70 份 PDF
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录
 
 ## 内容范围
@@ -33,7 +33,7 @@
 | 学习理论 | 函数逼近、算法能力边界 | 2、8 |
 | 模型训练 | 目标函数、优化器、参数初始化、训练动力学、损失景观、[参数高效微调](03_模型训练/06_参数高效微调/01_LoRA)（LoRA、AdaLoRA、LoRA+） | 1、5、10、15、18、19 |
 | 神经网络架构 | Transformer、RoPE、AttnRes、激活函数 | 20、35、36、42 |
-| 多模态学习 | CLIP、BLIP、[计算机视觉](05_多模态学习/03_计算机视觉)（ViT、DINO、U-Net、扩散模型、DiT） | 6、7、14、16、17、24、48 |
+| 多模态学习 | CLIP、SigLIP、BLIP、[计算机视觉](05_多模态学习/03_计算机视觉)（ViT、DINO、U-Net、扩散模型、DiT） | 6、7、14、16、17、24、48、58 |
 | 强化学习 | 马尔可夫决策过程、Q-Learning、PPO、策略熵 | 9、12、13、40 |
 | 大模型对齐 | RLHF、DPO、推理强化学习、大模型后训练 | 11、28—33、39 |
 | 开源大模型框架解析 | DeepSeek、Qwen、VisualGLM 系列 | 34、37、43—45、57 |
@@ -98,6 +98,7 @@
 | 55 | 最优化原理第七课 | Newton 法、拟 Newton 法及 DFP、BFGS 更新 | 中文讲义 |
 | 56 | 矩阵理论第一章 | 特征值、相似矩阵、可对角化及左右特征向量 | 中文讲义 |
 | 57 | Qwen3.8-27B | 视觉编码器、Gated DeltaNet 与混合式 Decoder | 中文讲义 |
+| 58 | SigLIP | 双编码器图文预训练与成对 Sigmoid 损失 | 中文讲义 |
 
 ## 推荐学习路径
 
@@ -119,8 +120,9 @@
 3. 第 16 课 Diffusion Model
 4. 第 17 课 U-Net
 5. 第 6 课 CLIP
-6. 第 7 课 BLIP
-7. 第 48 课 DiT
+6. 第 58 课 SigLIP
+7. 第 7 课 BLIP
+8. 第 48 课 DiT
 
 ### 大模型路径
 
