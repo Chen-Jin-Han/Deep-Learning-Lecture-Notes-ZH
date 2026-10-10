@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-68-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-69-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -19,10 +19,10 @@
 
 ## 当前状态
 
-- 已整理第 1 课至第 37 课及第 39 课至第 56 课的中文讲义。
+- 已整理第 1 课至第 37 课及第 39 课至第 57 课的中文讲义。
 - 已收录 DeepSeek、Qwen 及 VisualGLM 系列讲义与相关参考论文。
 - 已将课程讲义、参考论文及历史版本归入对应主题。
-- 当前共收录 68 份 PDF。
+- 当前共收录 69 份 PDF。
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录。
 
 ## 内容范围
@@ -36,7 +36,7 @@
 | 多模态学习 | CLIP、BLIP、[计算机视觉](05_多模态学习/03_计算机视觉)（ViT、DINO、U-Net、扩散模型、DiT） | 6、7、14、16、17、24、48 |
 | 强化学习 | 马尔可夫决策过程、Q-Learning、PPO、策略熵 | 9、12、13、40 |
 | 大模型对齐 | RLHF、DPO、推理强化学习、大模型后训练 | 11、28—33、39 |
-| 开源大模型框架解析 | DeepSeek、Qwen、VisualGLM 系列 | 34、37、43—45 |
+| 开源大模型框架解析 | DeepSeek、Qwen、VisualGLM 系列 | 34、37、43—45、57 |
 
 ## 完整课程索引
 
@@ -97,6 +97,7 @@
 | 54 | 最优化原理第六课 | 多维无约束优化的一阶方法、梯度法与共轭梯度法 | 中文讲义 |
 | 55 | 最优化原理第七课 | Newton 法、拟 Newton 法及 DFP、BFGS 更新 | 中文讲义 |
 | 56 | 矩阵理论第一章 | 特征值、相似矩阵、可对角化及左右特征向量 | 中文讲义 |
+| 57 | Qwen3.8-27B | 视觉编码器、Gated DeltaNet 与混合式 Decoder | 中文讲义 |
 
 ## 推荐学习路径
 
@@ -138,6 +139,7 @@
 11. 第 43 课 Qwen3.6-27B。
 12. 第 44 课 Qwen-VL 系列。
 13. 第 45 课 VisualGLM 系列。
+14. 第 57 课 Qwen3.8-27B。
 
 ### 强化学习路径
 
