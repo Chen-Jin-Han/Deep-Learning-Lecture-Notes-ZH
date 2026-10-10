@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-76-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-142-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -22,8 +22,10 @@
 - 已整理第 1 课至第 37 课及第 39 课至第 63 课的中文讲义
 - 已收录 DeepSeek、Qwen、VisualGLM 及 MiniMax 系列讲义与相关参考论文
 - 已将课程讲义、参考论文及历史版本归入对应主题
-- 当前共收录 76 份 PDF
+- 当前共收录 142 份 PDF
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录
+
+已整理 [77 篇参考论文](参考论文索引.md)，索引列出对应讲义、仓库 PDF 和原始链接。
 
 ## 内容范围
 
@@ -55,40 +57,40 @@
 | 11 | RLHF | 监督微调、奖励模型、人类偏好 | 中文讲义、相关论文 |
 | 12 | PPO | 策略梯度及近端策略优化 | 中文讲义、原论文 |
 | 13 | Q-Learning | 动作价值学习及 Bellman 更新 | 中文讲义 |
-| 14 | ViT | 图像分块及视觉 Transformer | 中文讲义 |
+| 14 | ViT | 图像分块及视觉 Transformer | 中文讲义、[参考论文](参考论文索引.md) |
 | 15 | Kaiming 初始化 | ReLU 网络的方差传播 | 中文讲义 |
-| 16 | Diffusion Model | 前向加噪、反向去噪、DDPM | 中文讲义 |
-| 17 | U-Net | 编码器、解码器、跳跃连接 | 中文讲义 |
-| 18 | 参数凝聚现象 | 参数方向聚集及有效宽度 | 中文讲义 |
-| 19 | 解的平坦性 | Hessian、局部曲率、泛化分析 | 中文讲义 |
-| 20 | Transformer | 自注意力及序列建模架构 | 中文讲义 |
+| 16 | Diffusion Model | 前向加噪、反向去噪、DDPM | 中文讲义、[参考论文](参考论文索引.md) |
+| 17 | U-Net | 编码器、解码器、跳跃连接 | 中文讲义、[参考论文](参考论文索引.md) |
+| 18 | 参数凝聚现象 | 参数方向聚集及有效宽度 | 中文讲义、[参考论文](参考论文索引.md) |
+| 19 | 解的平坦性 | Hessian、局部曲率、泛化分析 | 中文讲义、[参考论文](参考论文索引.md) |
+| 20 | Transformer | 自注意力及序列建模架构 | 中文讲义、[参考论文](参考论文索引.md) |
 | 21 | 常见概率分布 | 离散分布、连续分布、期望、方差 | 中文讲义 |
 | 22 | 闵可夫斯基距离 | 常见距离度量的统一形式 | 中文讲义 |
 | 23 | 课程计划 | 课程知识体系及后续规划 | 课程规划 |
-| 24 | DINO | 无标签自蒸馏及视觉表征学习 | 中文讲义 |
+| 24 | DINO | 无标签自蒸馏及视觉表征学习 | 中文讲义、[参考论文](参考论文索引.md) |
 | 25 | 蒙特卡洛方法 | 随机采样、重要性采样、MCMC | 中文讲义 |
-| 26 | Gram 矩阵 | 向量内积、几何结构、半正定性 | 中文讲义 |
+| 26 | Gram 矩阵 | 向量内积、几何结构、半正定性 | 中文讲义、[参考论文](参考论文索引.md) |
 | 27 | 矩阵谱分解 | 特征值、特征向量及对角化 | 中文讲义 |
-| 28 | GRPO | 组相对优势及无 Critic 策略优化 | 中文讲义 |
-| 29 | DAPO | 动态采样及解耦裁剪 | 中文讲义 |
-| 30 | VAPO | 价值模型增强的策略优化 | 中文讲义 |
-| 31 | GSPO | 序列级重要性比率及裁剪 | 中文讲义 |
-| 32 | GMPO | 几何平均策略优化 | 中文讲义 |
-| 33 | GFPO | 组过滤策略优化 | 中文讲义 |
+| 28 | GRPO | 组相对优势及无 Critic 策略优化 | 中文讲义、[参考论文](参考论文索引.md) |
+| 29 | DAPO | 动态采样及解耦裁剪 | 中文讲义、[参考论文](参考论文索引.md) |
+| 30 | VAPO | 价值模型增强的策略优化 | 中文讲义、[参考论文](参考论文索引.md) |
+| 31 | GSPO | 序列级重要性比率及裁剪 | 中文讲义、[参考论文](参考论文索引.md) |
+| 32 | GMPO | 几何平均策略优化 | 中文讲义、[参考论文](参考论文索引.md) |
+| 33 | GFPO | 组过滤策略优化 | 中文讲义、[参考论文](参考论文索引.md) |
 | 34 | DeepSeek-Coder-1.3B | 代码模型架构、训练方法、推理过程 | 中文讲义、参考论文 |
-| 35 | RoPE | 旋转位置编码、相对位置建模、长度外推基础 | 中文讲义 |
-| 36 | AttnRes | 注意力残差、深度注意力、跨层信息聚合 | 中文讲义、历史版本 |
-| 37 | DeepSeek LLM 67B | 通用语言模型架构、GQA、Scaling Law | 中文讲义 |
+| 35 | RoPE | 旋转位置编码、相对位置建模、长度外推基础 | 中文讲义、[参考论文](参考论文索引.md) |
+| 36 | AttnRes | 注意力残差、深度注意力、跨层信息聚合 | 中文讲义、历史版本、[参考论文](参考论文索引.md) |
+| 37 | DeepSeek LLM 67B | 通用语言模型架构、GQA、Scaling Law | 中文讲义、[参考论文](参考论文索引.md) |
 | 39 | 大模型后训练 | SFT、偏好优化、强化学习、知识蒸馏、数据迭代 | 中文讲义 |
 | 40 | 策略熵 | 策略不确定性、探索机制、熵奖励 | 中文讲义 |
 | 41 | JS 散度 | 概率分布比较、KL 散度对称化、信息度量 | 中文讲义 |
 | 42 | 激活函数 | 非线性表达、梯度传播及常见激活函数 | 中文讲义 |
 | 43 | Qwen3.6-27B | 通用语言模型架构及训练方法 | 中文讲义 |
-| 44 | Qwen-VL 系列 | 视觉语言模型架构、训练及多模态能力 | 中文讲义 |
-| 45 | VisualGLM 系列 | 中英双语视觉语言模型及多模态对话 | 中文讲义 |
+| 44 | Qwen-VL 系列 | 视觉语言模型架构、训练及多模态能力 | 中文讲义、[参考论文](参考论文索引.md) |
+| 45 | VisualGLM 系列 | 中英双语视觉语言模型及多模态对话 | 中文讲义、[参考论文](参考论文索引.md) |
 | 46 | 欧拉公式 | 指数函数与三角函数的幂级数关系 | 中文讲义 |
 | 47 | 代数基本定理 | 复系数多项式的根及最小模证明 | 中文讲义 |
-| 48 | DiT | 扩散 Transformer、潜在特征分块及自适应层归一化 | 中文讲义、[原论文](05_多模态学习/03_计算机视觉/04_图像生成/DiT原论文.pdf) |
+| 48 | DiT | 扩散 Transformer、潜在特征分块及自适应层归一化 | 中文讲义、[原论文](05_多模态学习/03_计算机视觉/04_图像生成/Scalable_Diffusion_Models_with_Transformers_arXiv-2212.09748.pdf) |
 | 49 | 最优化原理第一课 | 一维无约束优化、黄金分割法、Fibonacci 法、二分法、割线法、牛顿法 | 中文讲义 |
 | 50 | 最优化原理第二课 | 多维函数、最优解、梯度与 Hessian 矩阵、Taylor 展开 | 中文讲义 |
 | 51 | 最优化原理第三课 | 凸集、凸函数、凸优化及常见优化模型 | 中文讲义 |
@@ -98,12 +100,12 @@
 | 55 | 最优化原理第七课 | Newton 法、拟 Newton 法及 DFP、BFGS 更新 | 中文讲义 |
 | 56 | 矩阵理论第一章 | 特征值、相似矩阵、可对角化及左右特征向量 | 中文讲义 |
 | 57 | Qwen3.8-27B | 视觉编码器、Gated DeltaNet 与混合式 Decoder | 中文讲义 |
-| 58 | SigLIP | 双编码器图文预训练与成对 Sigmoid 损失 | 中文讲义、[原论文](05_多模态学习/01_图文对比学习/SigLIP原论文.pdf) |
-| 59 | CISPO | 重要性采样权重裁剪与词元级策略优化 | 中文讲义 |
-| 60 | DIVA-GRPO | 多模态 GRPO 的动态难度与变体优势优化 | 中文讲义 |
+| 58 | SigLIP | 双编码器图文预训练与成对 Sigmoid 损失 | 中文讲义、[原论文](05_多模态学习/01_图文对比学习/Sigmoid_Loss_for_Language_Image_Pre_Training_arXiv-2303.15343.pdf) |
+| 59 | CISPO | 重要性采样权重裁剪与词元级策略优化 | 中文讲义、[参考论文](参考论文索引.md) |
+| 60 | DIVA-GRPO | 多模态 GRPO 的动态难度与变体优势优化 | 中文讲义、[参考论文](参考论文索引.md) |
 | 61 | 流形假设 | 高维数据的低维结构、切空间与流形学习 | 中文讲义 |
 | 62 | MiniMax-H3-33B | 全模态音视频生成、统一 Transformer 与 Rectified Flow | 中文讲义 |
-| 63 | RMSNorm | BatchNorm、LayerNorm、Pre-Norm 与 RMSNorm | 中文讲义 |
+| 63 | RMSNorm | BatchNorm、LayerNorm、Pre-Norm 与 RMSNorm | 中文讲义、[参考论文](参考论文索引.md) |
 
 ## 推荐学习路径
 
