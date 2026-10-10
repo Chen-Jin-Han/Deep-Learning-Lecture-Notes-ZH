@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-70-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-71-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -22,7 +22,7 @@
 - 已整理第 1 课至第 37 课及第 39 课至第 58 课的中文讲义
 - 已收录 DeepSeek、Qwen 及 VisualGLM 系列讲义与相关参考论文
 - 已将课程讲义、参考论文及历史版本归入对应主题
-- 当前共收录 70 份 PDF
+- 当前共收录 71 份 PDF
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录
 
 ## 内容范围
@@ -98,7 +98,7 @@
 | 55 | 最优化原理第七课 | Newton 法、拟 Newton 法及 DFP、BFGS 更新 | 中文讲义 |
 | 56 | 矩阵理论第一章 | 特征值、相似矩阵、可对角化及左右特征向量 | 中文讲义 |
 | 57 | Qwen3.8-27B | 视觉编码器、Gated DeltaNet 与混合式 Decoder | 中文讲义 |
-| 58 | SigLIP | 双编码器图文预训练与成对 Sigmoid 损失 | 中文讲义 |
+| 58 | SigLIP | 双编码器图文预训练与成对 Sigmoid 损失 | 中文讲义、[原论文](05_多模态学习/01_图文对比学习/SigLIP原论文.pdf) |
 
 ## 推荐学习路径
 
