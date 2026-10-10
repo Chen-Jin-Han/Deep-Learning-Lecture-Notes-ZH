@@ -1,7 +1,7 @@
 # Deep Learning Lecture Notes in Chinese
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![PDF Notes](https://img.shields.io/badge/PDF%20notes-75-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
+[![PDF Notes](https://img.shields.io/badge/PDF%20notes-76-blue.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH)
 [![Language](https://img.shields.io/badge/language-Chinese-red.svg)](README.md)
 [![Status](https://img.shields.io/badge/status-active%20development-brightgreen.svg)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
 [![Last Commit](https://img.shields.io/github/last-commit/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH?color=orange)](https://github.com/Chen-Jin-Han/Deep-Learning-Lecture-Notes-ZH/commits/main)
@@ -19,10 +19,10 @@
 
 ## 当前状态
 
-- 已整理第 1 课至第 37 课及第 39 课至第 62 课的中文讲义
+- 已整理第 1 课至第 37 课及第 39 课至第 63 课的中文讲义
 - 已收录 DeepSeek、Qwen、VisualGLM 及 MiniMax 系列讲义与相关参考论文
 - 已将课程讲义、参考论文及历史版本归入对应主题
-- 当前共收录 75 份 PDF
+- 当前共收录 76 份 PDF
 - 历史版本保存在对应知识点目录中，不设置独立的全局归档目录
 
 ## 内容范围
@@ -32,7 +32,7 @@
 | 数学基础 | 矩阵微积分、线性代数（含矩阵理论）、概率论、距离度量、信息论、复数与复分析、最优化原理 | 3、4、21、22、25、26、27、41、46、47、49—56 |
 | 学习理论 | 函数逼近、算法能力边界、流形假设 | 2、8、61 |
 | 模型训练 | 目标函数、优化器、参数初始化、训练动力学、损失景观、[参数高效微调](03_模型训练/06_参数高效微调/01_LoRA)（LoRA、AdaLoRA、LoRA+） | 1、5、10、15、18、19 |
-| 神经网络架构 | Transformer、RoPE、AttnRes、激活函数 | 20、35、36、42 |
+| 神经网络架构 | Transformer、RoPE、AttnRes、激活函数、归一化 | 20、35、36、42、63 |
 | 多模态学习 | CLIP、SigLIP、BLIP、[计算机视觉](05_多模态学习/03_计算机视觉)（ViT、DINO、U-Net、扩散模型、DiT） | 6、7、14、16、17、24、48、58 |
 | 强化学习 | 马尔可夫决策过程、Q-Learning、PPO、策略熵 | 9、12、13、40 |
 | 大模型对齐 | RLHF、DPO、推理强化学习（含 CISPO、DIVA-GRPO）、大模型后训练 | 11、28—33、39、59、60 |
@@ -103,6 +103,7 @@
 | 60 | DIVA-GRPO | 多模态 GRPO 的动态难度与变体优势优化 | 中文讲义 |
 | 61 | 流形假设 | 高维数据的低维结构、切空间与流形学习 | 中文讲义 |
 | 62 | MiniMax-H3-33B | 全模态音视频生成、统一 Transformer 与 Rectified Flow | 中文讲义 |
+| 63 | RMSNorm | BatchNorm、LayerNorm、Pre-Norm 与 RMSNorm | 中文讲义 |
 
 ## 推荐学习路径
 
@@ -113,7 +114,7 @@
 1. 数学基础：第 3、4、21、22、25、26、27、41、46、47、49—56 课
 2. 学习理论：第 2、8、61 课
 3. 模型训练：第 1、5、15、18、19 课
-4. 通用架构：第 20、35、36、42 课
+4. 通用架构：第 20、35、36、42、63 课
 
 ### 视觉路径
 
